@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: rgb(24, 24, 24);
+    color: white;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.videos{
+    width: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minMax(350px, 1fr));
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px;
+}
+
+
+.btn{
+    margin-left: 200px;
+}
